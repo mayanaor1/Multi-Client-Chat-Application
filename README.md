@@ -30,40 +30,39 @@ python server.py
 
 2. The server will start and listen for incoming connections.
 
-Running a Client
+### Running a Client
 
-Run the client script:
+1. Run the client script:
+```
 Copypython client.py
+```
 
-Follow the on-screen prompts to:
+2. Follow the on-screen prompts to:
 
-Connect to an existing chat group
-Create a new chat group
-Exit the server
+* Connect to an existing chat group
+* Create a new chat group
+* Exit the server
 
 
 
-How It Works
+## How It Works
 
-The server manages multiple chat groups and client connections.
-Clients can create new groups or join existing ones with a password.
-Messages are broadcasted to all members of a group in real-time.
+* The server manages multiple chat groups and client connections.
+* Clients can create new groups or join existing ones with a password.
+* Messages are broadcasted to all members of a group in real-time.
 
-Authors
+## Authors
 
 Maya Naor (315176362)
+
 Adina Hessen (336165139)
 
-Notes
+## Notes
 
 The application uses localhost (127.0.0.1) and port 7037 by default.
+
 Ensure the port is not in use by other applications.
 
-Future Improvements
 
-Implement GUI for better user experience
-Add file sharing capabilities
-Implement end-to-end encryption for messages
-
-License
+## License
 This project is provided as-is, without any express or implied warranty. Use at your own risk.
